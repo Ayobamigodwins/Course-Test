@@ -1,0 +1,97 @@
+   /* * {
+            background-color: black;
+        }*/
+   
+   section>p {
+       color: red;
+   }
+   
+   .fish {
+       color: brown;
+       font-size: 24px;
+   }
+   
+   h3,
+   div#fine {
+       color: blue;
+       font-size: 20px;
+       text-align: center;
+       font-weight: bold;
+       opacity: .6;
+       background-color: green;
+   }
+   
+   #Bingo {
+       text-align: right;
+   }
+   
+   p#fol {
+       font-style: italic;
+   }
+   /*p {
+       color: deeppink !important;
+   }*/
+   
+   .beat p {
+       color: green;
+       font-size: 36px;
+       text-align: center;
+       background-color: whitesmoke;
+   }
+   
+   header li {
+       list-style: none;
+   }
+   /* div a:hover {
+       background-color: black;
+       color: blue;
+   }
+   
+   div a:link {
+       text-decoration: none;
+       color: blue;
+   }
+   
+   div a:visited {
+       text-decoration: none;
+       color: purple;
+   }*/
+   
+   header a:link,
+   a:visited {
+       text-decoration: none;
+       background-color: aqua;
+       border: 1px solid black;
+       color: peru;
+       display: block;
+       width: 200px;
+       text-align: center;
+       margin-bottom: 1.5px;
+   }
+   
+   header a:hover,
+   a:active {
+       background-color: black;
+       color: blue;
+   }
+   
+   header li:nth-child(3) {
+       font-size: 22px;
+   }
+   
+   header li:nth-child(3):hover {
+       font-size: 30px;
+   }
+   
+   .buzz div:nth-child(odd) {
+       background-color: brown;
+       width: 200px;
+   }
+   
+   .buzz div:hover {
+       font-size: 25px;
+   }
+   
+   section.pos:hover div:nth-child(4) {
+       font-size: 25px;
+   }
